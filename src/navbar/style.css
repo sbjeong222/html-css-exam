@@ -4,10 +4,6 @@
     --accent-color: pink;
 }
 
-body {
-    margin: 0;
-}
-
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -18,6 +14,7 @@ a {
     align-items: center;
     background-color: var(--background-color);
     padding: 8px 12px;
+    position: relative;
 }
 
 .navbar__logo {
