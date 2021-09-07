@@ -1,29 +1,27 @@
-:root {
-    --text-color: beige;
-    --background-color: navy;
-    --accent-color: pink;
-}
+$text-color: beige;
+$background-color: navy;
+$accent-color: pink;
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: $text-color;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--background-color);
+    background-color: $background-color;
     padding: 8px 12px;
     position: relative;
 }
 
 .navbar__logo {
     font-size: 24px;
-    color: var(--text-color);
+    color: $text-color;
 }
 
 .navbar__logo i {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .navbar__menu {
@@ -38,7 +36,7 @@ a {
 
 .navbar__icons {
     list-style: none;
-    color: var(--accent-color);
+    color: $accent-color;
     display: flex;
 }
 
@@ -52,7 +50,7 @@ a {
     position: absolute;
     right: 32px;
     font-size: 24px;
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 @media screen and (max-width: 768px) {
